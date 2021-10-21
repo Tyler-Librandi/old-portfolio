@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tyler Librandi's portfolio of front end web development projects.">
+  <title>Tyler Librandi: Web Developer</title>
+  <link rel="icon" type="image/x-icon" href="/images/laptop-icon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Urbanist:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <!-- NAVBAR CONTENT //////////////////////////////////////////////////////////////////// -->
+  <header>
+    <nav>
+      <ul id="portrait-menu">
+        <li class="nav-link">
+          <a id="greetings-link" class="active" href="#greetings">
+            <p>Greetings</p>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a id="portfolio-link" href="#portfolio">
+            <p>Portfolio</p>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a id="skills-link" href="#skills">
+            <p>Skills</p>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a id="background-link" href="#background">
+            <p>Background</p>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a id="goals-link" href="#goals">
+            <p>Goals</p>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a id="contact-link" href="#contact">
+            <p>Contact</p>
+          </a>
+        </li>
+      </ul>
+      <ul id="landscape-menu">
+        <li class="nav-link">
+          <a id="greetings-link" class="active" href="#greetings">
+            <p>Greetings</p>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a id="portfolio-link" href="#portfolio">
+            <p>Portfolio</p>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a id="skills-link" href="#skills">
+            <p>Skills</p>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a id="background-link" href="#background">
+            <p>Background</p>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a id="goals-link" href="#goals">
+            <p>Goals</p>
+          </a>
+        </li>
+        <li class="nav-link">
+          <a id="contact-link" href="#contact">
+            <p>Contact</p>
+          </a>
+        </li>
+      </ul>
+      <button id="menu-toggle" onclick="menuToggle()">Menu</button>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT //////////////////////////////////////////////////////////////////// -->
+  <main>
+    <!-- GREETINGS //////////////// -->
+    <section id="greetings">
+      <div class="flex-box">
+        <div class="flex-item">
+          <img id="headshot" src="/images/Me-headshot.webp" alt="">
+          <h1 class="greetings-title">Hello, I'm Tyler Librandi.</h1>
+          <p id="greetings-subtext">I develop and design websites.</p>
+        </div>
+        <div class="flex-item greetings-double">
+          <img id="self-portrait" src="/images/Me-headshot.webp" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO //////////////// -->
+    <section id="portfolio">
+      <div class="flex-box">
+        <div class="flex-item">
+          <h1 class="portfolio-title">This is what some of my work is like.</h1>
+          <div class="portfolio-grid">
+            <div class="portfolio-grid-item">
+              <a class="project-link" href="https://kurtlibrandi.art/" target="_blank" rel="noreferrer nofollow">KurtLibrandi.art
+                <div class="project">
+                  <img class="project-image" src="/images/kurt-librandi.webp" alt="">
+                  <div class="project-overlay">
+                    <h2 class="project-title">Kurtlibrandi.art</h2>
+                    <p class="project-description">A portfolio of artwork
+                      <br>
+                      made by Kurt Librandi
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="portfolio-grid-item">
+              <a class="project-link" href="https://rent-a-waitress.com/" target="_blank" rel="noreferrer nofollow">Rent-a-Waitress.com
+                <div class="project">
+                  <img class="project-image" src="/images/rent-a-waitress.webp" alt="">
+                  <div class="project-overlay">
+                    <h2 class="project-title">Rent-a-waitress.com</h2>
+                    <p class="project-description">A website for a local waitstaff business</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="portfolio-grid-item">
+              <a class="project-link" href="https://gaming.tylerlibrandi.com/" target="_blank" rel="noreferrer nofollow">Gaming.TylerLibrandi.com
+                <div class="project">
+                  <img class="project-image" src="/images/gaming-journal.webp" alt="">
+                  <div class="project-overlay">
+                    <h2 class="project-title">Gaming Journal</h2>
+                    <p class="project-description">A website dedicated to my gaming experiences</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- SKILLS //////////////// -->
+    <section id="skills">
+      <div class="flex-box">
+        <div class="flex-item">
+          <h1 class="skills-title">To accomplish this, I've utilized these skills.</h1>
+          <div class="skills-grid">
+            <div class="skills-grid-item">
+              <h2 class="skill-area">Language</h2>
+              <p class="skill">HTML</p>
+              <p class="skill">CSS</p>
+              <p class="skill">JavaScript</p>
+              <p class="skill">SQL</p>
+              <p class="skill">Git</p>
+            </div>
+            <div class="skills-grid-item">
+              <h2 class="skill-area">Program</h2>
+              <p class="skill">Adobe Photoshop</p>
+              <p class="skill">Adobe Premiere Pro</p>
+              <p class="skill">Microsoft Word</p>
+              <p class="skill">Microsoft PowerPoint</p>
+              <p class="skill">Microsoft Excel</p>
+            </div>
+            <div class="skills-grid-item">
+              <h2 class="skill-area">IDE / CMS</h2>
+              <p class="skill">Visual Studio Code</p>
+              <p class="skill">Chrome Developer Tools</p>
+              <p class="skill">WordPress</p>
+              <p class="skill">Shopify</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BACKGROUND //////////////// -->
+    <section id="background">
+      <div class="flex-box">
+        <div class="flex-item">
+          <h1 class="background-title">I've obtained my knowledge through these sources.</h1>
+          <div class="background-grid">
+            <div class="background-grid-item">
+              <h2 class="institution">Bellevue University</h2>
+              <p class="award">Bachelor Degree of Science in:</p>
+              <p class="subject">Web Development</p>
+            </div>
+            <div class="background-grid-item">
+              <h2 class="institution">FreeCodeCamp</h2>
+              <p class="award">Certifications in:</p>
+              <p class="subject">Responsive Web Design</p>
+              <p class="subject">Basic JavaScript</p>
+              <p class="subject">ES6</p>
+            </div>
+            <div class="background-grid-item">
+              <h2 class="institution">CodeCademy</h2>
+              <p class="award">Certifications in:</p>
+              <p class="subject">HTML</p>
+              <p class="subject">CSS</p>
+              <p class="subject">JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOALS //////////////// -->
+    <section id="goals">
+      <div class="flex-box">
+        <div class="flex-item">
+          <h1 class="goals-title">And I don't plan to stop there.</h1>
+          <p id="goals-subtext">My goals for the future include creating websites using new languages like Rust and
+            Python. I'd also love to learn how to utilize popular frameworks such as
+            React.js, Angular, Vue.js, etc.
+            <br>
+            <br>
+            I believe that my education is something that should never stand
+            still. By allowing myself to constantly learn new things, I'll always remain in motion and continue an
+            exploration for new and
+            exciting opportunities.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT //////////////// -->
+    <section id="contact">
+      <div class="flex-box">
+        <div class="flex-item">
+          <h1 class="contact-title">Send me a message!</h1>
+          <div id="contact-subtext">
+            <p>Please reach out and inquire about anything that comes to mind after viewing my
+              portfolio. Whether it's questions about projects displayed here, my current or future projects,
+              the best times to network with me, or even just feedback about this website.
+              <br>
+              I look forward to working with you to build unique websites that really stand out.
+            </p>
+            <p>You can email me at <a id="contact-email"
+                href="mailto: TylerLibrandi@gmail.com ? Subject=TEST">TylerLibrandi@gmail.com</a> to get started today!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER CONTENT //////////////////////////////////////////////////////////////////// -->
+  <footer>
+    <p>
+      &copy;
+      <script type="text/javascript">
+        document.write(new Date().getFullYear() + ",");
+      </script>
+      Tyler Librandi,
+      All Rights Reserved.
+    </p>
+  </footer>
+
+  <!-- SCRIPTS //////////////////////////////////////////////////////////////////// -->
+  <script src="nav.js"></script>
+</body>
+
+</html>
